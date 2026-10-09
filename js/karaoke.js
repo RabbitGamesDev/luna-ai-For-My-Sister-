@@ -4,9 +4,11 @@
 const LunaKaraoke = (() => {
   // Lista de videos con ID directo para evitar bloqueo 153
   const playlist = [
-    { title: "K-Pop Demon Hunters / Disney Mix", id: "5qap5aO4i9A" },
-    { title: "Cupid - FIFTY FIFTY (Karaoke)", id: "Qc7_zRjH808" },
-    { title: "Bajo el Sol - Pop Kids", id: "L_LUpnjgPso" }
+    { title: "Tutu-Camilo", id: "b1mbJv2994U" },
+    { title: "Hasta La Raíz - Natalia Lafourcade", id: "zB8L3tB3V0s" },
+    { title: "Shakira - Acróstico", id: "x4632mC76m8" },
+    { title: "Floricienta — Flores Amarillas", id: "uD0W_J5aJ00" },
+    { title: "Ángela Aguilar - Dime Cómo Quieres", id: "A_cUh..." },
   ];
 
   function renderKaraokeView(containerId) {
